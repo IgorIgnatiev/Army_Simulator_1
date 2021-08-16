@@ -10,7 +10,10 @@ public:
 	{
 		this->distance = E_Distances::DISTANCE_LOW;
 	}
-	C_Weapon(E_Distances distance);
+	C_Weapon(E_Distances distance)
+	{
+		this->distance = distance;
+	}
 
 	friend std::ostream& operator <<(std::ostream& out, const C_Weapon& obj)
 	{
