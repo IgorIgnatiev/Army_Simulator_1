@@ -1,18 +1,16 @@
 ﻿
 #include <iostream>
-#include"C_Breastplate.h"
-#include"C_Helmet.h"
-#include"C_Shoes.h"
-#include"C_Bow.h"
+#include"C_Archer.h"
+#include"C_Infantry.h"
+#include"C_Infanrty_With_Halberd.h"
+
 
 int main()
 {
-    C_Breastplate breastplate;
-    C_Helmet helmet;
-    C_Shoes shoes;
-    C_Bow bow;
-    std::cout << helmet << "\n";
-    std::cout << breastplate << "\n";
-    std::cout << shoes << "\n";
-    std::cout << bow << "\n";
+	C_Archer archer;
+	std::cout << archer;
+	C_Infantry warrior;
+	std::cout << warrior;
+	C_Infantry_Halberd halberd;
+	std::cout << halberd;
 }

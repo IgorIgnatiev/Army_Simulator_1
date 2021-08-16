@@ -22,6 +22,18 @@ public:
 	{
 		return C_Armor(this->type, this->material);
 	}
+	void set_type(E_Armor_Types type)
+	{
+		this->type = type;
+	}
+	void set_material(E_Materials material)
+	{
+		this->material = material;
+	}
+	void set_length(short l)
+	{
+		this->_length = l;
+	}
 private:
 	short _length;
 };

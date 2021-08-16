@@ -74,5 +74,14 @@
     <ClInclude Include="E_Usings.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="C_Archer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Infantry.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Infanrty_With_Halberd.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

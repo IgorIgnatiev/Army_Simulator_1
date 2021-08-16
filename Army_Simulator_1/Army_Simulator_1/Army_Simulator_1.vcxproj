@@ -142,11 +142,14 @@
     <ClCompile Include="Army_Simulator_1.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C_Archer.h" />
     <ClInclude Include="C_Armor.h" />
     <ClInclude Include="C_Bow.h" />
     <ClInclude Include="C_Breastplate.h" />
     <ClInclude Include="C_Halberd.h" />
     <ClInclude Include="C_Helmet.h" />
+    <ClInclude Include="C_Infanrty_With_Halberd.h" />
+    <ClInclude Include="C_Infantry.h" />
     <ClInclude Include="C_Mace.h" />
     <ClInclude Include="C_One_Handed_Sword.h" />
     <ClInclude Include="C_Shoes.h" />

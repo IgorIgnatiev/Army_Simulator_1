@@ -23,6 +23,19 @@ public:
 	{
 		return C_Armor(this->type, this->material);
 	}
+
+	void set_head(short _head)
+	{
+		this->_head_coverage = _head;
+	}
+	void set_type(E_Armor_Types type)
+	{
+		this->type = type;
+	}
+	void set_material(E_Materials material)
+	{
+		this->material = material;
+	}
 private:
 	short _head_coverage;
 };

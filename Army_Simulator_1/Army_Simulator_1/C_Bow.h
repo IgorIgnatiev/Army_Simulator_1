@@ -21,6 +21,13 @@ public:
 		out << (C_Weapon_High_Distance)obj << "Stick length: " << obj.stick_length << "\n";
 		return out;
 	}
+	void set(E_Distances d, short dis ,short s)
+	{
+		this->stick_length = s;
+		this->distance = d;
+		this->distance_metres = dis;
+	}
+	
 private:
 	short stick_length;
 };
