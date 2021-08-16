@@ -143,7 +143,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C_Weapon.h" />
+    <ClInclude Include="C_Weapon_High_Distance.h" />
+    <ClInclude Include="C_Weapon_Low_Distance.h" />
     <ClInclude Include="E_Distance.h" />
+    <ClInclude Include="E_Usings.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
