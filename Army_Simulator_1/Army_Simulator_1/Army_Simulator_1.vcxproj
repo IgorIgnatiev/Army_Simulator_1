@@ -142,6 +142,13 @@
     <ClCompile Include="Army_Simulator_1.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C_Bow.h" />
+    <ClInclude Include="C_Halberd.h" />
+    <ClInclude Include="C_Mace.h" />
+    <ClInclude Include="C_One_Handed_Sword.h" />
+    <ClInclude Include="C_Two_Handed_Sword.h" />
+    <ClInclude Include="C_Types_Of_Axe.h" />
+    <ClInclude Include="E_Types.h" />
     <ClInclude Include="C_Weapon.h" />
     <ClInclude Include="C_Weapon_High_Distance.h" />
     <ClInclude Include="C_Weapon_Low_Distance.h" />
