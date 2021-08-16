@@ -142,21 +142,12 @@
     <ClCompile Include="Army_Simulator_1.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C_Bow.h" />
-    <ClInclude Include="C_Halberd.h" />
-    <ClInclude Include="C_Mace.h" />
-    <ClInclude Include="C_One_Handed_Sword.h" />
-    <ClInclude Include="C_Two_Handed_Sword.h" />
-    <ClInclude Include="C_Types_Of_Axe.h" />
-    <ClInclude Include="E_Armor.h" />
+    <ClInclude Include="C_Armor.h" />
+    <ClInclude Include="C_Breastplate.h" />
+    <ClInclude Include="C_Helmet.h" />
+    <ClInclude Include="C_Shoes.h" />
     <ClInclude Include="E_Armor_Types.h" />
     <ClInclude Include="E_Material.h" />
-    <ClInclude Include="E_Types.h" />
-    <ClInclude Include="C_Weapon.h" />
-    <ClInclude Include="C_Weapon_High_Distance.h" />
-    <ClInclude Include="C_Weapon_Low_Distance.h" />
-    <ClInclude Include="E_Distance.h" />
-    <ClInclude Include="E_Usings.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
