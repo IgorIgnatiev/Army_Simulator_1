@@ -148,6 +148,9 @@
     <ClInclude Include="C_One_Handed_Sword.h" />
     <ClInclude Include="C_Two_Handed_Sword.h" />
     <ClInclude Include="C_Types_Of_Axe.h" />
+    <ClInclude Include="E_Armor.h" />
+    <ClInclude Include="E_Armor_Types.h" />
+    <ClInclude Include="E_Material.h" />
     <ClInclude Include="E_Types.h" />
     <ClInclude Include="C_Weapon.h" />
     <ClInclude Include="C_Weapon_High_Distance.h" />
